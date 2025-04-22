@@ -37,6 +37,7 @@ app = dash.Dash(
     external_stylesheets=[dbc.themes.YETI],
     suppress_callback_exceptions=True
 )
+
 server = app.server
 
 # Dash app layout
