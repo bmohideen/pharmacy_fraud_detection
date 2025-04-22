@@ -260,5 +260,5 @@ def update_eda_plot(var):
     return fig
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run_server(debug=True)
 
